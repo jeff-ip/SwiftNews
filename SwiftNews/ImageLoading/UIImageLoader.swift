@@ -8,8 +8,8 @@
 
 import UIKit
 
-//singleton for loading images for UIImageViews in the app, keeps a single image cache
-//may need to listen for memory warnings for when storing too many images
+//Singleton for loading images for UIImageViews in the app, keeps a single image cache
+//TODO: may need to listen for memory warnings to catch storing too many images
 class UIImageLoader {
     static let loader = UIImageLoader()
     

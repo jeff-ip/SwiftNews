@@ -18,11 +18,8 @@ class ImageLoader {
             completion(.success(image))
             return nil
         }
-        
         let uuid = UUID()
-        
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            
             defer { self.runningRequests.removeValue(forKey: uuid) } //do this before leaving the scope of this function, i.e. before running the completion handler
             
             if let data = data, let image = UIImage(data: data) {

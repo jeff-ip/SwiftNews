@@ -8,7 +8,7 @@
 
 import Foundation
 
-//parses top level of reddit json response
+//Parses top level of reddit json response
 struct Response: Codable {
     struct Children: Codable {
         struct SwiftNewsData: Codable {

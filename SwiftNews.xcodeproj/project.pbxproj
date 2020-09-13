@@ -96,8 +96,8 @@
 				4F3DF7F1250C492600333308 /* SwiftNewsViewController.swift */,
 				4FA97C33250DB72700D01903 /* SwiftNewsDetailViewController.swift */,
 				4FA97C26250D33D800D01903 /* SwiftNewsTableViewCell.swift */,
+				4FA97C35250E713F00D01903 /* Model */,
 				4FA97C32250D636400D01903 /* ImageLoading */,
-				4F3DF7F3250C495800333308 /* SwiftNewsItem.swift */,
 				4F3DF7D3250C466000333308 /* Main.storyboard */,
 				4F3DF7D6250C466100333308 /* Assets.xcassets */,
 				4F3DF7D8250C466100333308 /* LaunchScreen.storyboard */,
@@ -123,6 +123,14 @@
 				4FA97C30250D62DE00D01903 /* UIImageView+LoadImage.swift */,
 			);
 			path = ImageLoading;
+			sourceTree = "<group>";
+		};
+		4FA97C35250E713F00D01903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F3DF7F3250C495800333308 /* SwiftNewsItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
